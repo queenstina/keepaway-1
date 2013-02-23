@@ -1,0 +1,1015 @@
+# depslib dependency file v1.0
+1358434966 source:/home/mlk/Documents/Mestrado/keepaway/player/keepaway/ActHandler.cc
+	"ActHandler.h"
+	<poll.h>
+	<sys/poll.h>
+	<cstring>
+	<signal.h>
+
+1358434966 /home/mlk/Documents/Mestrado/keepaway/player/keepaway/ActHandler.h
+	"Connection.h"
+	"WorldModel.h"
+
+1358434966 /home/mlk/Documents/Mestrado/keepaway/player/keepaway/Connection.h
+	<stdio.h>
+	<iostream>
+	<windows.h>
+	<netdb.h>
+	<arpa/inet.h>
+
+1358434966 /home/mlk/Documents/Mestrado/keepaway/player/keepaway/WorldModel.h
+	"Objects.h"
+	"PlayerSettings.h"
+	"Logger.h"
+	"LoggerDraw.h"
+	"Formations.h"
+	<list>
+	<windows.h>
+	<pthread.h>
+	<sys/time.h>
+
+1358434966 /home/mlk/Documents/Mestrado/keepaway/player/keepaway/Objects.h
+	"SoccerTypes.h"
+
+1358434966 /home/mlk/Documents/Mestrado/keepaway/player/keepaway/SoccerTypes.h
+	<iostream>
+	"Geometry.h"
+	"ServerSettings.h"
+
+1358434966 /home/mlk/Documents/Mestrado/keepaway/player/keepaway/Geometry.h
+	"math.h"
+	<string>
+	<iostream>
+
+1358434966 /home/mlk/Documents/Mestrado/keepaway/player/keepaway/ServerSettings.h
+	"Geometry.h"
+	"GenericValues.h"
+
+1358434966 /home/mlk/Documents/Mestrado/keepaway/player/keepaway/GenericValues.h
+	<iostream>
+
+1358434966 /home/mlk/Documents/Mestrado/keepaway/player/keepaway/PlayerSettings.h
+	"GenericValues.h"
+
+1358434966 /home/mlk/Documents/Mestrado/keepaway/player/keepaway/Logger.h
+	<iostream>
+	<fstream>
+	<string>
+	<iomanip>
+	<set>
+	<windows.h>
+	<time.h>
+	<sys/time.h>
+
+1358434966 /home/mlk/Documents/Mestrado/keepaway/player/keepaway/LoggerDraw.h
+	"SoccerTypes.h"
+	"Geometry.h"
+	<iostream>
+	<fstream>
+
+1358434966 /home/mlk/Documents/Mestrado/keepaway/player/keepaway/Formations.h
+	"SoccerTypes.h"
+
+1358434966 source:/home/mlk/Documents/Mestrado/keepaway/player/keepaway/BasicPlayer.cc
+	"BasicPlayer.h"
+	"Parse.h"
+
+1358434966 /home/mlk/Documents/Mestrado/keepaway/player/keepaway/BasicPlayer.h
+	"ActHandler.h"
+
+1358434966 /home/mlk/Documents/Mestrado/keepaway/player/keepaway/Parse.h
+
+1358434966 source:/home/mlk/Documents/Mestrado/keepaway/player/keepaway/Connection.cc
+	<errno.h>
+	<string.h>
+	<sys/types.h>
+	<unistd.h>
+	<sys/socket.h>
+	<sys/socket.h>
+	"Connection.h"
+	"Logger.h"
+
+1358434966 source:/home/mlk/Documents/Mestrado/keepaway/player/keepaway/DemoExtension.cc
+	"SMDPAgent.h"
+	"WorldModel.h"
+	<iostream>
+
+1358434966 /home/mlk/Documents/Mestrado/keepaway/player/keepaway/SMDPAgent.h
+
+1358434966 source:/home/mlk/Documents/Mestrado/keepaway/player/keepaway/Formations.cc
+	"Formations.h"
+	"Parse.h"
+	<fstream>
+	<stdio.h>
+	<math.h>
+
+1358434966 source:/home/mlk/Documents/Mestrado/keepaway/player/keepaway/GenericValues.cc
+	"GenericValues.h"
+	"Parse.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<fstream>
+
+1358434966 source:/home/mlk/Documents/Mestrado/keepaway/player/keepaway/Geometry.cc
+	"Geometry.h"
+	<stdio.h>
+	<iostream.h>
+
+1358434966 source:/home/mlk/Documents/Mestrado/keepaway/player/keepaway/HandCodedAgent.cc
+	<string.h>
+	<stdlib.h>
+	"HandCodedAgent.h"
+
+1358434966 /home/mlk/Documents/Mestrado/keepaway/player/keepaway/HandCodedAgent.h
+	"SMDPAgent.h"
+	"WorldModel.h"
+	<cstdlib>
+
+1358434966 source:/home/mlk/Documents/Mestrado/keepaway/player/keepaway/KeepawayPlayer.cc
+	"KeepawayPlayer.h"
+	"Parse.h"
+	"SayMsgEncoder.h"
+	<cstring>
+
+1358434966 /home/mlk/Documents/Mestrado/keepaway/player/keepaway/KeepawayPlayer.h
+	"BasicPlayer.h"
+	"SMDPAgent.h"
+
+1358434966 /home/mlk/Documents/Mestrado/keepaway/player/keepaway/SayMsgEncoder.h
+	"SayMsgTypes.h"
+	<vector>
+
+1358434966 /home/mlk/Documents/Mestrado/keepaway/player/keepaway/SayMsgTypes.h
+	<stdio.h>
+	<iostream>
+	<string>
+	"SayMsgIDs.h"
+	"SayMsgDataTypes.h"
+
+1358434966 /home/mlk/Documents/Mestrado/keepaway/player/keepaway/SayMsgIDs.h
+
+1358434966 /home/mlk/Documents/Mestrado/keepaway/player/keepaway/SayMsgDataTypes.h
+	<iostream>
+	<assert.h>
+
+1358444708 source:/home/mlk/Documents/Mestrado/keepaway/player/keepaway/LinearSarsaAgent.cc
+	<stdlib.h>
+	<string.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<time.h>
+	"LinearSarsaAgent.h"
+	"LoggerDraw.h"
+
+1358434966 /home/mlk/Documents/Mestrado/keepaway/player/keepaway/LinearSarsaAgent.h
+	"SMDPAgent.h"
+	"tiles2.h"
+
+1358434966 /home/mlk/Documents/Mestrado/keepaway/player/keepaway/tiles2.h
+	<stdio.h>
+	<stdlib.h>
+	<fcntl.h>
+	<unistd.h>
+
+1358434966 source:/home/mlk/Documents/Mestrado/keepaway/player/keepaway/Logger.cc
+	"Logger.h"
+	<cstring>
+	<stdio.h>
+	<string>
+	<varargs.h>
+	<stdarg.h>
+	<pthread.h>
+	<windows.h>
+	<sys/poll.h>
+
+1358434966 source:/home/mlk/Documents/Mestrado/keepaway/player/keepaway/LoggerDraw.cc
+	"LoggerDraw.h"
+	<cstring>
+
+1358434966 source:/home/mlk/Documents/Mestrado/keepaway/player/keepaway/Objects.cc
+	"Objects.h"
+	<stdlib.h>
+	<iostream>
+	<strings.h>
+	<string.h>
+
+1358434966 source:/home/mlk/Documents/Mestrado/keepaway/player/keepaway/Parse.cc
+	"Parse.h"
+	<ctype.h>
+	<math.h>
+	<string.h>
+	<iostream.h>
+
+1358434966 source:/home/mlk/Documents/Mestrado/keepaway/player/keepaway/PlayerSettings.cc
+	"PlayerSettings.h"
+
+1358434966 source:/home/mlk/Documents/Mestrado/keepaway/player/keepaway/SenseHandler.cc
+	"SenseHandler.h"
+	"ActHandler.h"
+	"Parse.h"
+	"WorldModelSayMsgFactory.h"
+	<signal.h>
+	<string.h>
+	<stdio.h>
+	<iostream>
+
+1358434966 /home/mlk/Documents/Mestrado/keepaway/player/keepaway/SenseHandler.h
+	"Connection.h"
+	"WorldModel.h"
+
+1358434966 /home/mlk/Documents/Mestrado/keepaway/player/keepaway/WorldModelSayMsgFactory.h
+	"SayMsgFactory.h"
+	"WorldModel.h"
+	"WorldModelSayMsgTypes.h"
+
+1358434966 /home/mlk/Documents/Mestrado/keepaway/player/keepaway/SayMsgFactory.h
+	"SayMsgTypes.h"
+
+1358434966 /home/mlk/Documents/Mestrado/keepaway/player/keepaway/WorldModelSayMsgTypes.h
+	"WorldModel.h"
+	"SayMsgTypes.h"
+
+1358434966 source:/home/mlk/Documents/Mestrado/keepaway/player/keepaway/ServerSettings.cc
+	"ServerSettings.h"
+	<stdio.h>
+	<string.h>
+
+1358434966 source:/home/mlk/Documents/Mestrado/keepaway/player/keepaway/SoccerTypes.cc
+	<iostream>
+	<stdio.h>
+	<strings.h>
+	<string.h>
+	"SoccerTypes.h"
+	"Parse.h"
+
+1358434966 source:/home/mlk/Documents/Mestrado/keepaway/player/keepaway/WorldModel.cc
+	<stdio.h>
+	<errno.h>
+	<windows.h>
+	<strings.h>
+	<pthread.h>
+	<string.h>
+	<math.h>
+	<map>
+	"WorldModel.h"
+
+1358434966 source:/home/mlk/Documents/Mestrado/keepaway/player/keepaway/WorldModelHighLevel.cc
+	<cstring>
+	<list>
+	<stdio.h>
+	"WorldModel.h"
+
+1358434966 source:/home/mlk/Documents/Mestrado/keepaway/player/keepaway/WorldModelKeepaway.cc
+	<assert.h>
+	"WorldModel.h"
+
+1358434966 source:/home/mlk/Documents/Mestrado/keepaway/player/keepaway/WorldModelPredict.cc
+	<stdio.h>
+	"WorldModel.h"
+
+1358434966 source:/home/mlk/Documents/Mestrado/keepaway/player/keepaway/WorldModelSayMsgTypes.cc
+	"WorldModelSayMsgTypes.h"
+	"SoccerTypes.h"
+	"Geometry.h"
+
+1358434966 source:/home/mlk/Documents/Mestrado/keepaway/player/keepaway/WorldModelUpdate.cc
+	"WorldModel.h"
+	"Parse.h"
+	"SayMsgDecoder.h"
+	"WorldModelSayMsgFactory.h"
+	<cstdlib>
+	<cstring>
+	<stdio.h>
+	<list>
+	<sys/times.h>
+	<sys/time.h>
+	<sys/resource.h>
+	<unistd.h>
+
+1358434966 /home/mlk/Documents/Mestrado/keepaway/player/keepaway/SayMsgDecoder.h
+	<vector>
+	<pthread.h>
+	"SayMsgFactory.h"
+	"SayMsgDataTypes.h"
+
+1358444554 source:/home/mlk/Documents/Mestrado/keepaway/player/keepaway/main.cc
+	"SenseHandler.h"
+	"ActHandler.h"
+	"KeepawayPlayer.h"
+	"HandCodedAgent.h"
+	"LinearSarsaAgent.h"
+	"QLearningAgent.h"
+	"Parse.h"
+	<string.h>
+	<windows.h>
+	<dlfcn.h>
+	<pthread.h>
+	<stdlib.h>
+	<vector>
+
+1358878374 /home/mlk/Documents/Mestrado/keepaway/player/keepaway/QLearningAgent.h
+	"SMDPAgent.h"
+	"tiles2.h"
+
+1358434966 source:/home/mlk/Documents/Mestrado/keepaway/player/keepaway/tiles2.cc
+	<iostream>
+	"tiles2.h"
+	"stdlib.h"
+	"math.h"
+
+1358434966 source:/home/mlk/Documents/Mestrado/keepaway/player/ActHandler.cc
+	"ActHandler.h"
+	<poll.h>
+	<sys/poll.h>
+	<cstring>
+	<signal.h>
+
+1358434966 /home/mlk/Documents/Mestrado/keepaway/player/ActHandler.h
+	"Connection.h"
+	"WorldModel.h"
+
+1358434966 /home/mlk/Documents/Mestrado/keepaway/player/Connection.h
+	<stdio.h>
+	<iostream>
+	<windows.h>
+	<netdb.h>
+	<arpa/inet.h>
+
+1358434966 /home/mlk/Documents/Mestrado/keepaway/player/WorldModel.h
+	"Objects.h"
+	"PlayerSettings.h"
+	"Logger.h"
+	"LoggerDraw.h"
+	"Formations.h"
+	<list>
+	<windows.h>
+	<pthread.h>
+	<sys/time.h>
+
+1358434966 /home/mlk/Documents/Mestrado/keepaway/player/Objects.h
+	"SoccerTypes.h"
+
+1358434966 /home/mlk/Documents/Mestrado/keepaway/player/SoccerTypes.h
+	<iostream>
+	"Geometry.h"
+	"ServerSettings.h"
+
+1358434966 /home/mlk/Documents/Mestrado/keepaway/player/Geometry.h
+	"math.h"
+	<string>
+	<iostream>
+
+1358434966 /home/mlk/Documents/Mestrado/keepaway/player/ServerSettings.h
+	"Geometry.h"
+	"GenericValues.h"
+
+1358434966 /home/mlk/Documents/Mestrado/keepaway/player/GenericValues.h
+	<iostream>
+
+1358434966 /home/mlk/Documents/Mestrado/keepaway/player/PlayerSettings.h
+	"GenericValues.h"
+
+1358434966 /home/mlk/Documents/Mestrado/keepaway/player/Logger.h
+	<iostream>
+	<fstream>
+	<string>
+	<iomanip>
+	<set>
+	<windows.h>
+	<time.h>
+	<sys/time.h>
+
+1358434966 /home/mlk/Documents/Mestrado/keepaway/player/LoggerDraw.h
+	"SoccerTypes.h"
+	"Geometry.h"
+	<iostream>
+	<fstream>
+
+1358434966 /home/mlk/Documents/Mestrado/keepaway/player/Formations.h
+	"SoccerTypes.h"
+
+1358434966 source:/home/mlk/Documents/Mestrado/keepaway/player/BasicPlayer.cc
+	"BasicPlayer.h"
+	"Parse.h"
+
+1358434966 /home/mlk/Documents/Mestrado/keepaway/player/BasicPlayer.h
+	"ActHandler.h"
+
+1358434966 /home/mlk/Documents/Mestrado/keepaway/player/Parse.h
+
+1358434966 source:/home/mlk/Documents/Mestrado/keepaway/player/Connection.cc
+	<errno.h>
+	<string.h>
+	<sys/types.h>
+	<unistd.h>
+	<sys/socket.h>
+	<sys/socket.h>
+	"Connection.h"
+	"Logger.h"
+
+1358434966 source:/home/mlk/Documents/Mestrado/keepaway/player/DemoExtension.cc
+	"SMDPAgent.h"
+	"WorldModel.h"
+	<iostream>
+
+1358434966 /home/mlk/Documents/Mestrado/keepaway/player/SMDPAgent.h
+
+1358434966 source:/home/mlk/Documents/Mestrado/keepaway/player/Formations.cc
+	"Formations.h"
+	"Parse.h"
+	<fstream>
+	<stdio.h>
+	<math.h>
+
+1358434966 source:/home/mlk/Documents/Mestrado/keepaway/player/GenericValues.cc
+	"GenericValues.h"
+	"Parse.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<fstream>
+
+1358434966 source:/home/mlk/Documents/Mestrado/keepaway/player/Geometry.cc
+	"Geometry.h"
+	<stdio.h>
+	<iostream.h>
+
+1358434966 source:/home/mlk/Documents/Mestrado/keepaway/player/HandCodedAgent.cc
+	<string.h>
+	<stdlib.h>
+	"HandCodedAgent.h"
+
+1358434966 /home/mlk/Documents/Mestrado/keepaway/player/HandCodedAgent.h
+	"SMDPAgent.h"
+	"WorldModel.h"
+	<cstdlib>
+
+1358434966 source:/home/mlk/Documents/Mestrado/keepaway/player/KeepawayPlayer.cc
+	"KeepawayPlayer.h"
+	"Parse.h"
+	"SayMsgEncoder.h"
+	<cstring>
+
+1358434966 /home/mlk/Documents/Mestrado/keepaway/player/KeepawayPlayer.h
+	"BasicPlayer.h"
+	"SMDPAgent.h"
+
+1358434966 /home/mlk/Documents/Mestrado/keepaway/player/SayMsgEncoder.h
+	"SayMsgTypes.h"
+	<vector>
+
+1358434966 /home/mlk/Documents/Mestrado/keepaway/player/SayMsgTypes.h
+	<stdio.h>
+	<iostream>
+	<string>
+	"SayMsgIDs.h"
+	"SayMsgDataTypes.h"
+
+1358434966 /home/mlk/Documents/Mestrado/keepaway/player/SayMsgIDs.h
+
+1358434966 /home/mlk/Documents/Mestrado/keepaway/player/SayMsgDataTypes.h
+	<iostream>
+	<assert.h>
+
+1358444708 source:/home/mlk/Documents/Mestrado/keepaway/player/LinearSarsaAgent.cc
+	<stdlib.h>
+	<string.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<time.h>
+	"LinearSarsaAgent.h"
+	"LoggerDraw.h"
+
+1358434966 /home/mlk/Documents/Mestrado/keepaway/player/LinearSarsaAgent.h
+	"SMDPAgent.h"
+	"tiles2.h"
+
+1358434966 /home/mlk/Documents/Mestrado/keepaway/player/tiles2.h
+	<stdio.h>
+	<stdlib.h>
+	<fcntl.h>
+	<unistd.h>
+
+1358434966 source:/home/mlk/Documents/Mestrado/keepaway/player/Logger.cc
+	"Logger.h"
+	<cstring>
+	<stdio.h>
+	<string>
+	<varargs.h>
+	<stdarg.h>
+	<pthread.h>
+	<windows.h>
+	<sys/poll.h>
+
+1358434966 source:/home/mlk/Documents/Mestrado/keepaway/player/LoggerDraw.cc
+	"LoggerDraw.h"
+	<cstring>
+
+1358434966 source:/home/mlk/Documents/Mestrado/keepaway/player/Objects.cc
+	"Objects.h"
+	<stdlib.h>
+	<iostream>
+	<strings.h>
+	<string.h>
+
+1358434966 source:/home/mlk/Documents/Mestrado/keepaway/player/Parse.cc
+	"Parse.h"
+	<ctype.h>
+	<math.h>
+	<string.h>
+	<iostream.h>
+
+1358434966 source:/home/mlk/Documents/Mestrado/keepaway/player/PlayerSettings.cc
+	"PlayerSettings.h"
+
+1359492802 source:/home/mlk/Documents/Mestrado/keepaway/player/QLearningAgent.cc
+	<stdlib.h>
+	<string.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<time.h>
+	"QLearningAgent.h"
+	"LoggerDraw.h"
+	<iostream>
+
+1359490408 /home/mlk/Documents/Mestrado/keepaway/player/QLearningAgent.h
+	"SMDPAgent.h"
+	"tiles2.h"
+
+1358434966 source:/home/mlk/Documents/Mestrado/keepaway/player/SenseHandler.cc
+	"SenseHandler.h"
+	"ActHandler.h"
+	"Parse.h"
+	"WorldModelSayMsgFactory.h"
+	<signal.h>
+	<string.h>
+	<stdio.h>
+	<iostream>
+
+1358434966 /home/mlk/Documents/Mestrado/keepaway/player/SenseHandler.h
+	"Connection.h"
+	"WorldModel.h"
+
+1358434966 /home/mlk/Documents/Mestrado/keepaway/player/WorldModelSayMsgFactory.h
+	"SayMsgFactory.h"
+	"WorldModel.h"
+	"WorldModelSayMsgTypes.h"
+
+1358434966 /home/mlk/Documents/Mestrado/keepaway/player/SayMsgFactory.h
+	"SayMsgTypes.h"
+
+1358434966 /home/mlk/Documents/Mestrado/keepaway/player/WorldModelSayMsgTypes.h
+	"WorldModel.h"
+	"SayMsgTypes.h"
+
+1358434966 source:/home/mlk/Documents/Mestrado/keepaway/player/ServerSettings.cc
+	"ServerSettings.h"
+	<stdio.h>
+	<string.h>
+
+1358434966 source:/home/mlk/Documents/Mestrado/keepaway/player/SoccerTypes.cc
+	<iostream>
+	<stdio.h>
+	<strings.h>
+	<string.h>
+	"SoccerTypes.h"
+	"Parse.h"
+
+1358434966 source:/home/mlk/Documents/Mestrado/keepaway/player/WorldModel.cc
+	<stdio.h>
+	<errno.h>
+	<windows.h>
+	<strings.h>
+	<pthread.h>
+	<string.h>
+	<math.h>
+	<map>
+	"WorldModel.h"
+
+1358434966 source:/home/mlk/Documents/Mestrado/keepaway/player/WorldModelHighLevel.cc
+	<cstring>
+	<list>
+	<stdio.h>
+	"WorldModel.h"
+
+1358434966 source:/home/mlk/Documents/Mestrado/keepaway/player/WorldModelKeepaway.cc
+	<assert.h>
+	"WorldModel.h"
+
+1358434966 source:/home/mlk/Documents/Mestrado/keepaway/player/WorldModelPredict.cc
+	<stdio.h>
+	"WorldModel.h"
+
+1358434966 source:/home/mlk/Documents/Mestrado/keepaway/player/WorldModelSayMsgTypes.cc
+	"WorldModelSayMsgTypes.h"
+	"SoccerTypes.h"
+	"Geometry.h"
+
+1358434966 source:/home/mlk/Documents/Mestrado/keepaway/player/WorldModelUpdate.cc
+	"WorldModel.h"
+	"Parse.h"
+	"SayMsgDecoder.h"
+	"WorldModelSayMsgFactory.h"
+	<cstdlib>
+	<cstring>
+	<stdio.h>
+	<list>
+	<sys/times.h>
+	<sys/time.h>
+	<sys/resource.h>
+	<unistd.h>
+
+1358434966 /home/mlk/Documents/Mestrado/keepaway/player/SayMsgDecoder.h
+	<vector>
+	<pthread.h>
+	"SayMsgFactory.h"
+	"SayMsgDataTypes.h"
+
+1358444554 source:/home/mlk/Documents/Mestrado/keepaway/player/main.cc
+	"SenseHandler.h"
+	"ActHandler.h"
+	"KeepawayPlayer.h"
+	"HandCodedAgent.h"
+	"LinearSarsaAgent.h"
+	"QLearningAgent.h"
+	"Parse.h"
+	<string.h>
+	<windows.h>
+	<dlfcn.h>
+	<pthread.h>
+	<stdlib.h>
+	<vector>
+
+1358434966 source:/home/mlk/Documents/Mestrado/keepaway/player/tiles2.cc
+	<iostream>
+	"tiles2.h"
+	"stdlib.h"
+	"math.h"
+
+1358434966 source:/home/mlk/Dropbox/ME-MarceloKoga/Keepaway/keepaway/player/ActHandler.cc
+	"ActHandler.h"
+	<poll.h>
+	<sys/poll.h>
+	<cstring>
+	<signal.h>
+
+1358434966 /home/mlk/Dropbox/ME-MarceloKoga/Keepaway/keepaway/player/ActHandler.h
+	"Connection.h"
+	"WorldModel.h"
+
+1358434966 /home/mlk/Dropbox/ME-MarceloKoga/Keepaway/keepaway/player/Connection.h
+	<stdio.h>
+	<iostream>
+	<windows.h>
+	<netdb.h>
+	<arpa/inet.h>
+
+1358434966 /home/mlk/Dropbox/ME-MarceloKoga/Keepaway/keepaway/player/WorldModel.h
+	"Objects.h"
+	"PlayerSettings.h"
+	"Logger.h"
+	"LoggerDraw.h"
+	"Formations.h"
+	<list>
+	<windows.h>
+	<pthread.h>
+	<sys/time.h>
+
+1358434966 /home/mlk/Dropbox/ME-MarceloKoga/Keepaway/keepaway/player/Objects.h
+	"SoccerTypes.h"
+
+1358434966 /home/mlk/Dropbox/ME-MarceloKoga/Keepaway/keepaway/player/SoccerTypes.h
+	<iostream>
+	"Geometry.h"
+	"ServerSettings.h"
+
+1358434966 /home/mlk/Dropbox/ME-MarceloKoga/Keepaway/keepaway/player/Geometry.h
+	"math.h"
+	<string>
+	<iostream>
+
+1358434966 /home/mlk/Dropbox/ME-MarceloKoga/Keepaway/keepaway/player/ServerSettings.h
+	"Geometry.h"
+	"GenericValues.h"
+
+1358434966 /home/mlk/Dropbox/ME-MarceloKoga/Keepaway/keepaway/player/GenericValues.h
+	<iostream>
+
+1358434966 /home/mlk/Dropbox/ME-MarceloKoga/Keepaway/keepaway/player/PlayerSettings.h
+	"GenericValues.h"
+
+1358434966 /home/mlk/Dropbox/ME-MarceloKoga/Keepaway/keepaway/player/Logger.h
+	<iostream>
+	<fstream>
+	<string>
+	<iomanip>
+	<set>
+	<windows.h>
+	<time.h>
+	<sys/time.h>
+
+1358434966 /home/mlk/Dropbox/ME-MarceloKoga/Keepaway/keepaway/player/LoggerDraw.h
+	"SoccerTypes.h"
+	"Geometry.h"
+	<iostream>
+	<fstream>
+
+1358434966 /home/mlk/Dropbox/ME-MarceloKoga/Keepaway/keepaway/player/Formations.h
+	"SoccerTypes.h"
+
+1358434966 source:/home/mlk/Dropbox/ME-MarceloKoga/Keepaway/keepaway/player/BasicPlayer.cc
+	"BasicPlayer.h"
+	"Parse.h"
+
+1358434966 /home/mlk/Dropbox/ME-MarceloKoga/Keepaway/keepaway/player/BasicPlayer.h
+	"ActHandler.h"
+
+1358434966 /home/mlk/Dropbox/ME-MarceloKoga/Keepaway/keepaway/player/Parse.h
+
+1358434966 source:/home/mlk/Dropbox/ME-MarceloKoga/Keepaway/keepaway/player/Connection.cc
+	<errno.h>
+	<string.h>
+	<sys/types.h>
+	<unistd.h>
+	<sys/socket.h>
+	<sys/socket.h>
+	"Connection.h"
+	"Logger.h"
+
+1358434966 source:/home/mlk/Dropbox/ME-MarceloKoga/Keepaway/keepaway/player/DemoExtension.cc
+	"SMDPAgent.h"
+	"WorldModel.h"
+	<iostream>
+
+1358434966 /home/mlk/Dropbox/ME-MarceloKoga/Keepaway/keepaway/player/SMDPAgent.h
+
+1358434966 source:/home/mlk/Dropbox/ME-MarceloKoga/Keepaway/keepaway/player/Formations.cc
+	"Formations.h"
+	"Parse.h"
+	<fstream>
+	<stdio.h>
+	<math.h>
+
+1358434966 source:/home/mlk/Dropbox/ME-MarceloKoga/Keepaway/keepaway/player/GenericValues.cc
+	"GenericValues.h"
+	"Parse.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<fstream>
+
+1358434966 source:/home/mlk/Dropbox/ME-MarceloKoga/Keepaway/keepaway/player/Geometry.cc
+	"Geometry.h"
+	<stdio.h>
+	<iostream.h>
+
+1358434966 source:/home/mlk/Dropbox/ME-MarceloKoga/Keepaway/keepaway/player/HandCodedAgent.cc
+	<string.h>
+	<stdlib.h>
+	"HandCodedAgent.h"
+
+1358434966 /home/mlk/Dropbox/ME-MarceloKoga/Keepaway/keepaway/player/HandCodedAgent.h
+	"SMDPAgent.h"
+	"WorldModel.h"
+	<cstdlib>
+
+1361302074 source:/home/mlk/Dropbox/ME-MarceloKoga/Keepaway/keepaway/player/KeepawayPlayer.cc
+	"KeepawayPlayer.h"
+	"Parse.h"
+	"SayMsgEncoder.h"
+	<cstring>
+
+1358434966 /home/mlk/Dropbox/ME-MarceloKoga/Keepaway/keepaway/player/KeepawayPlayer.h
+	"BasicPlayer.h"
+	"SMDPAgent.h"
+
+1358434966 /home/mlk/Dropbox/ME-MarceloKoga/Keepaway/keepaway/player/SayMsgEncoder.h
+	"SayMsgTypes.h"
+	<vector>
+
+1358434966 /home/mlk/Dropbox/ME-MarceloKoga/Keepaway/keepaway/player/SayMsgTypes.h
+	<stdio.h>
+	<iostream>
+	<string>
+	"SayMsgIDs.h"
+	"SayMsgDataTypes.h"
+
+1358434966 /home/mlk/Dropbox/ME-MarceloKoga/Keepaway/keepaway/player/SayMsgIDs.h
+
+1358434966 /home/mlk/Dropbox/ME-MarceloKoga/Keepaway/keepaway/player/SayMsgDataTypes.h
+	<iostream>
+	<assert.h>
+
+1358444708 source:/home/mlk/Dropbox/ME-MarceloKoga/Keepaway/keepaway/player/LinearSarsaAgent.cc
+	<stdlib.h>
+	<string.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<time.h>
+	"LinearSarsaAgent.h"
+	"LoggerDraw.h"
+
+1361467679 /home/mlk/Dropbox/ME-MarceloKoga/Keepaway/keepaway/player/LinearSarsaAgent.h
+	"SMDPAgent.h"
+	"tiles2.h"
+
+1358434966 /home/mlk/Dropbox/ME-MarceloKoga/Keepaway/keepaway/player/tiles2.h
+	<stdio.h>
+	<stdlib.h>
+	<fcntl.h>
+	<unistd.h>
+
+1358434966 source:/home/mlk/Dropbox/ME-MarceloKoga/Keepaway/keepaway/player/Logger.cc
+	"Logger.h"
+	<cstring>
+	<stdio.h>
+	<string>
+	<varargs.h>
+	<stdarg.h>
+	<pthread.h>
+	<windows.h>
+	<sys/poll.h>
+
+1358434966 source:/home/mlk/Dropbox/ME-MarceloKoga/Keepaway/keepaway/player/LoggerDraw.cc
+	"LoggerDraw.h"
+	<cstring>
+
+1358434966 source:/home/mlk/Dropbox/ME-MarceloKoga/Keepaway/keepaway/player/Objects.cc
+	"Objects.h"
+	<stdlib.h>
+	<iostream>
+	<strings.h>
+	<string.h>
+
+1358434966 source:/home/mlk/Dropbox/ME-MarceloKoga/Keepaway/keepaway/player/Parse.cc
+	"Parse.h"
+	<ctype.h>
+	<math.h>
+	<string.h>
+	<iostream.h>
+
+1358434966 source:/home/mlk/Dropbox/ME-MarceloKoga/Keepaway/keepaway/player/PlayerSettings.cc
+	"PlayerSettings.h"
+
+1359492802 source:/home/mlk/Dropbox/ME-MarceloKoga/Keepaway/keepaway/player/QLearningAgent.cc
+	<stdlib.h>
+	<string.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<time.h>
+	"QLearningAgent.h"
+	"LoggerDraw.h"
+	<iostream>
+
+1359490408 /home/mlk/Dropbox/ME-MarceloKoga/Keepaway/keepaway/player/QLearningAgent.h
+	"SMDPAgent.h"
+	"tiles2.h"
+
+1358434966 source:/home/mlk/Dropbox/ME-MarceloKoga/Keepaway/keepaway/player/SenseHandler.cc
+	"SenseHandler.h"
+	"ActHandler.h"
+	"Parse.h"
+	"WorldModelSayMsgFactory.h"
+	<signal.h>
+	<string.h>
+	<stdio.h>
+	<iostream>
+
+1358434966 /home/mlk/Dropbox/ME-MarceloKoga/Keepaway/keepaway/player/SenseHandler.h
+	"Connection.h"
+	"WorldModel.h"
+
+1358434966 /home/mlk/Dropbox/ME-MarceloKoga/Keepaway/keepaway/player/WorldModelSayMsgFactory.h
+	"SayMsgFactory.h"
+	"WorldModel.h"
+	"WorldModelSayMsgTypes.h"
+
+1358434966 /home/mlk/Dropbox/ME-MarceloKoga/Keepaway/keepaway/player/SayMsgFactory.h
+	"SayMsgTypes.h"
+
+1358434966 /home/mlk/Dropbox/ME-MarceloKoga/Keepaway/keepaway/player/WorldModelSayMsgTypes.h
+	"WorldModel.h"
+	"SayMsgTypes.h"
+
+1358434966 source:/home/mlk/Dropbox/ME-MarceloKoga/Keepaway/keepaway/player/ServerSettings.cc
+	"ServerSettings.h"
+	<stdio.h>
+	<string.h>
+
+1358434966 source:/home/mlk/Dropbox/ME-MarceloKoga/Keepaway/keepaway/player/SoccerTypes.cc
+	<iostream>
+	<stdio.h>
+	<strings.h>
+	<string.h>
+	"SoccerTypes.h"
+	"Parse.h"
+
+1358434966 source:/home/mlk/Dropbox/ME-MarceloKoga/Keepaway/keepaway/player/WorldModel.cc
+	<stdio.h>
+	<errno.h>
+	<windows.h>
+	<strings.h>
+	<pthread.h>
+	<string.h>
+	<math.h>
+	<map>
+	"WorldModel.h"
+
+1358434966 source:/home/mlk/Dropbox/ME-MarceloKoga/Keepaway/keepaway/player/WorldModelHighLevel.cc
+	<cstring>
+	<list>
+	<stdio.h>
+	"WorldModel.h"
+
+1358434966 source:/home/mlk/Dropbox/ME-MarceloKoga/Keepaway/keepaway/player/WorldModelKeepaway.cc
+	<assert.h>
+	"WorldModel.h"
+
+1358434966 source:/home/mlk/Dropbox/ME-MarceloKoga/Keepaway/keepaway/player/WorldModelPredict.cc
+	<stdio.h>
+	"WorldModel.h"
+
+1358434966 source:/home/mlk/Dropbox/ME-MarceloKoga/Keepaway/keepaway/player/WorldModelSayMsgTypes.cc
+	"WorldModelSayMsgTypes.h"
+	"SoccerTypes.h"
+	"Geometry.h"
+
+1358434966 source:/home/mlk/Dropbox/ME-MarceloKoga/Keepaway/keepaway/player/WorldModelUpdate.cc
+	"WorldModel.h"
+	"Parse.h"
+	"SayMsgDecoder.h"
+	"WorldModelSayMsgFactory.h"
+	<cstdlib>
+	<cstring>
+	<stdio.h>
+	<list>
+	<sys/times.h>
+	<sys/time.h>
+	<sys/resource.h>
+	<unistd.h>
+
+1358434966 /home/mlk/Dropbox/ME-MarceloKoga/Keepaway/keepaway/player/SayMsgDecoder.h
+	<vector>
+	<pthread.h>
+	"SayMsgFactory.h"
+	"SayMsgDataTypes.h"
+
+1358434966 source:/home/mlk/Dropbox/ME-MarceloKoga/Keepaway/keepaway/player/tiles2.cc
+	<iostream>
+	"tiles2.h"
+	"stdlib.h"
+	"math.h"
+
+1361283846 source:/home/mlk/Dropbox/ME-MarceloKoga/Keepaway/keepaway/player/main.cc
+	"SenseHandler.h"
+	"ActHandler.h"
+	"KeepawayPlayer.h"
+	"HandCodedAgent.h"
+	"LinearSarsaAgent.h"
+	"QLearningAgent.h"
+	"AbsProbAgent.h"
+	"Parse.h"
+	<string.h>
+	<windows.h>
+	<dlfcn.h>
+	<pthread.h>
+	<stdlib.h>
+	<vector>
+
+1361460597 /home/mlk/Dropbox/ME-MarceloKoga/Keepaway/keepaway/player/AbsProbAgent.h
+	"SMDPAgent.h"
+	"tiles2.h"
+	<cmath>
+	<vector>
+	<iostream>
+	<fstream>
+	<sstream>
+
+1361283083 source:/home/mlk/Dropbox/ME-MarceloKoga/Keepaway/keepaway/player/AbsProbAgent.cpp
+	"AbsProbAgent.h"
+
+1361283308 source:/home/mlk/Dropbox/ME-MarceloKoga/Keepaway/keepaway/player/debugmain.cc
+	"SenseHandler.h"
+	"ActHandler.h"
+	"KeepawayPlayer.h"
+	"HandCodedAgent.h"
+	"LinearSarsaAgent.h"
+	"QLearningAgent.h"
+	"AbsProbAgent.h"
+	<cstdlib>
+	<vector>
+	<iostream>
+	<fstream>
+
+1361466385 source:/home/mlk/Dropbox/ME-MarceloKoga/Keepaway/keepaway/player/AbsProbAgent.cc
+	"AbsProbAgent.h"
+

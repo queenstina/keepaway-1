@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="AbsProbAgent.cc" open="1" top="0" tabpos="2">
+		<Cursor position="5259" topLine="147" />
+	</File>
+	<File name="AbsProbAgent.h" open="1" top="0" tabpos="1">
+		<Cursor position="805" topLine="11" />
+	</File>
+	<File name="GenericValues.h" open="0" top="0" tabpos="0">
+		<Cursor position="3460" topLine="58" />
+	</File>
+	<File name="KeepawayPlayer.cc" open="0" top="0" tabpos="5">
+		<Cursor position="9636" topLine="244" />
+	</File>
+	<File name="LinearSarsaAgent.cc" open="0" top="0" tabpos="2">
+		<Cursor position="392" topLine="6" />
+	</File>
+	<File name="LinearSarsaAgent.h" open="0" top="0" tabpos="1">
+		<Cursor position="53" topLine="0" />
+	</File>
+	<File name="LinearSarsaAgent2.cc" open="0" top="0" tabpos="0">
+		<Cursor position="755" topLine="6" />
+	</File>
+	<File name="LinearSarsaAgent2.h" open="0" top="0" tabpos="0">
+		<Cursor position="376" topLine="0" />
+	</File>
+	<File name="Logger.cc" open="0" top="0" tabpos="6">
+		<Cursor position="5912" topLine="123" />
+	</File>
+	<File name="LoggerDraw.cc" open="0" top="0" tabpos="0">
+		<Cursor position="0" topLine="7" />
+	</File>
+	<File name="Objects.cc" open="0" top="0" tabpos="0">
+		<Cursor position="0" topLine="48" />
+	</File>
+	<File name="QLearningAgent.cc" open="0" top="0" tabpos="1">
+		<Cursor position="5212" topLine="200" />
+	</File>
+	<File name="QLearningAgent.h" open="0" top="0" tabpos="2">
+		<Cursor position="627" topLine="33" />
+	</File>
+	<File name="SMDPAgent.h" open="0" top="0" tabpos="7">
+		<Cursor position="1541" topLine="39" />
+	</File>
+	<File name="ServerSettings.cc" open="0" top="0" tabpos="7">
+		<Cursor position="103187" topLine="2735" />
+	</File>
+	<File name="WorldModel.h" open="0" top="0" tabpos="0">
+		<Cursor position="4955" topLine="97" />
+	</File>
+	<File name="WorldModelKeepaway.cc" open="0" top="0" tabpos="0">
+		<Cursor position="3312" topLine="85" />
+	</File>
+	<File name="main.cc" open="0" top="0" tabpos="4">
+		<Cursor position="3785" topLine="148" />
+	</File>
+	<File name="tiles2.cc" open="0" top="0" tabpos="7">
+		<Cursor position="8667" topLine="326" />
+	</File>
+	<File name="tiles2.h" open="1" top="0" tabpos="0">
+		<Cursor position="0" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

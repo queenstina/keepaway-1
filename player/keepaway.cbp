@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="keepaway" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/keepaway" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/keepaway" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O3" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="AbsProbAgent.cc" />
+		<Unit filename="AbsProbAgent.h" />
+		<Unit filename="ActHandler.cc" />
+		<Unit filename="ActHandler.h" />
+		<Unit filename="BasicPlayer.cc" />
+		<Unit filename="BasicPlayer.h" />
+		<Unit filename="Connection.cc" />
+		<Unit filename="Connection.h" />
+		<Unit filename="DemoExtension.cc" />
+		<Unit filename="Formations.cc" />
+		<Unit filename="Formations.h" />
+		<Unit filename="GenericValues.cc" />
+		<Unit filename="GenericValues.h" />
+		<Unit filename="Geometry.cc" />
+		<Unit filename="Geometry.h" />
+		<Unit filename="HandCodedAgent.cc" />
+		<Unit filename="HandCodedAgent.h" />
+		<Unit filename="KeepawayPlayer.cc" />
+		<Unit filename="KeepawayPlayer.h" />
+		<Unit filename="LinearSarsaAgent.cc" />
+		<Unit filename="LinearSarsaAgent.h" />
+		<Unit filename="LinearSarsaAgent2.cc" />
+		<Unit filename="LinearSarsaAgent2.h" />
+		<Unit filename="Logger.cc" />
+		<Unit filename="Logger.h" />
+		<Unit filename="LoggerDraw.cc" />
+		<Unit filename="LoggerDraw.h" />
+		<Unit filename="Objects.cc" />
+		<Unit filename="Objects.h" />
+		<Unit filename="Parse.cc" />
+		<Unit filename="Parse.h" />
+		<Unit filename="PlayerSettings.cc" />
+		<Unit filename="PlayerSettings.h" />
+		<Unit filename="QLearningAgent.cc" />
+		<Unit filename="QLearningAgent.h" />
+		<Unit filename="SMDPAgent.h" />
+		<Unit filename="SayMsgDataTypes.h" />
+		<Unit filename="SayMsgDecoder.h" />
+		<Unit filename="SayMsgEncoder.h" />
+		<Unit filename="SayMsgFactory.h" />
+		<Unit filename="SayMsgIDs.h" />
+		<Unit filename="SayMsgTypes.h" />
+		<Unit filename="SenseHandler.cc" />
+		<Unit filename="SenseHandler.h" />
+		<Unit filename="ServerSettings.cc" />
+		<Unit filename="ServerSettings.h" />
+		<Unit filename="SoccerTypes.cc" />
+		<Unit filename="SoccerTypes.h" />
+		<Unit filename="WorldModel.cc" />
+		<Unit filename="WorldModel.h" />
+		<Unit filename="WorldModelHighLevel.cc" />
+		<Unit filename="WorldModelKeepaway.cc" />
+		<Unit filename="WorldModelPredict.cc" />
+		<Unit filename="WorldModelSayMsgFactory.h" />
+		<Unit filename="WorldModelSayMsgTypes.cc" />
+		<Unit filename="WorldModelSayMsgTypes.h" />
+		<Unit filename="WorldModelUpdate.cc" />
+		<Unit filename="demo_extension.so" />
+		<Unit filename="formations.conf" />
+		<Unit filename="main.cc" />
+		<Unit filename="player.conf" />
+		<Unit filename="player.layout" />
+		<Unit filename="tiles2.cc" />
+		<Unit filename="tiles2.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1361293850 source:/home/mlk/Dropbox/ME-MarceloKoga/Keepaway/keepaway/player/AbsProbAgent.cpp
+	"AbsProbAgent.h"
+
+1361483217 /home/mlk/Dropbox/ME-MarceloKoga/Keepaway/keepaway/player/AbsProbAgent.h
+	"SMDPAgent.h"
+	"tiles2.h"
+	<cmath>
+	<vector>
+	<iostream>
+	<fstream>
+	<sstream>
+
+1358434966 /home/mlk/Dropbox/ME-MarceloKoga/Keepaway/keepaway/player/SMDPAgent.h
+
+1358434966 /home/mlk/Dropbox/ME-MarceloKoga/Keepaway/keepaway/player/tiles2.h
+	<stdio.h>
+	<stdlib.h>
+	<fcntl.h>
+	<unistd.h>
+
+1361296929 source:/home/mlk/Dropbox/ME-MarceloKoga/Keepaway/keepaway/player/AbsProbAgentTest/debugmain.cc
+	"../AbsProbAgent.h"
+	<iostream>
+	<fstream>
+
+1358434966 source:/home/mlk/Dropbox/ME-MarceloKoga/Keepaway/keepaway/player/tiles2.cc
+	<iostream>
+	"tiles2.h"
+	"stdlib.h"
+	"math.h"
+
+1361296757 source:/home/mlk/Dropbox/ME-MarceloKoga/Keepaway/keepaway/player/AbsProbAgent.cc
+	"AbsProbAgent.h"
+

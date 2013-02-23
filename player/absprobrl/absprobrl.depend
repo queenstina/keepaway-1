@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1360845617 source:/home/mlk/Documents/Mestrado/keepaway/player/absprobrl/grad.cpp
+	<stdio.h>
+	<stdlib.h>
+	"tiles2.h"
+	<math.h>
+
+1360844336 /home/mlk/Documents/Mestrado/keepaway/player/absprobrl/tiles2.h
+	<stdio.h>
+	<stdlib.h>
+	<fcntl.h>
+	<unistd.h>
+
